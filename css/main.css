@@ -1,0 +1,15 @@
+* {
+	border :1px solid red;
+}
+
+#header {
+	height: 30px;
+	width: 1200px;
+}
+
+img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+}
