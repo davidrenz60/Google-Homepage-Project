@@ -1,15 +1,48 @@
 * {
 	border :1px solid red;
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
 }
 
-#header {
+#nav {
 	height: 30px;
-	width: 1200px;
+	width:100%;
+
 }
 
-img {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 50px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
+li {
+	float: right;
+}
+
+#main-logo {
+	text-align: center;
+}
+
+#input {
+	text-align: center;
+}
+
+#buttons {
+	text-align: center;
+}
+
+#footer {
+	height:30px;
+	width:100%;
+}
+
+#footer-r {
+	float: right;
+}
+
+#footer-l {
+	float: left;
+}
+
