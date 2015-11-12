@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Google Homepage</title>
+	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
-	
 </head>
 <body>
 	<div id="container">
@@ -17,7 +17,7 @@
 					<a href="www.google.com">Images</a>
 				</li>
 				<li id="app-logo">
-					<a href="www.google.com"><img src="applauncher.png"></a>
+					<a href="www.google.com" class="box-icon"><img src="applauncher.png"></a>
 				</li>
 				<li id="sign-in">
 				 	<a href="www.google.com" class="sign-in">Sign in</a>
@@ -27,8 +27,12 @@
 		<div id="main-logo">
 			<img src="googlelogo.png">
 		</div>
-		<div id="input">
-			<input type="text">
+		
+		<div id="input-area">
+			<div id="outline">
+				<input type="text">
+				<img src="microphone.png" id="microphone">
+			</div> 
 		</div>
 		<div id="buttons">
 			<button type="button">Google Search</button>
@@ -36,14 +40,14 @@
 		</div>
 		<div id="footer">
 			<div id="footer-l">
-				<a href="www.google.com">Advertising</a>
-				<a href="www.google.com">Business</a>
-				<a href="www.google.com">About</a>
+				<a href="www.google.com" class="footer-text left">Advertising</a>
+				<a href="www.google.com" class="footer-text left">Business</a>
+				<a href="www.google.com" class="footer-text left">About</a>
 			</div>
 			<div id="footer-r">
-				<a href="www.google.com">Privacy</a>
-				<a href="www.google.com">Terms</a>
-				<a href="www.google.com">Settings</a>
+				<a href="www.google.com" class="footer-text right">Privacy</a>
+				<a href="www.google.com" class="footer-text right">Terms</a>
+				<a href="www.google.com" class="footer-text right">Settings</a>
 			</div>
 	
 		</div>

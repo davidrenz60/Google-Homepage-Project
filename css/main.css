@@ -1,24 +1,25 @@
-/* * {
-	border :1px solid red;
+ * {
 	-webkit-box-sizing: border-box;
   	-moz-box-sizing: border-box;
   	box-sizing: border-box;
 }
-*/
 
 html, body, #container {
 	height: 100%;
 	font-family: arial, sans-serif;
 }
 
-
 #nav {
 	display: flex;
 	justify-content: flex-end;
 	font-size: 13px;
-
+	padding-top: 15px;
 }
 
+.box-icon {
+	position: relative;
+	bottom: 2px;
+}
 
 .sign-in {
 	color: #fff;
@@ -26,6 +27,11 @@ html, body, #container {
 	font-weight: bold;
     outline: none;
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 2px;
   }
 
 a {
@@ -37,30 +43,83 @@ ul {
     display: inline-flex;
     list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 
 li {
+	margin-right: 18px;
+    margin-top: 10px;
+}
 
-	
+#gmail {
+	opacity: .75;
+}
+
+#images {
+	opacity: .75;
 }
 
 #main-logo {
 	display: flex;
 	justify-content: center;
-	
+	padding-top: 150px;
+	padding-bottom: 25px
 }
 
-#input {
-	display: flex;
-    justify-content: center;
-	
+#outline {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 484px;
+	background-color: #fff;
+    border: 1px solid #d9d9d9;
+    
+    height: 38px;
+    vertical-align: top;
+    text-align: right;
+
+}
+
+#microphone{
+	padding-top: 6px;
+    padding-right: 5px;
+}
+
+input {
+	border: none !important;
+    padding-left: 10px !important;
+    margin: 0px !important;
+    height: 100% !important;
+    width: 450px !important;
+    position: absolute;
+    z-index: 6;
+    left: 0px;
+    outline: none;
+    font-size: 18px;
+    opacity: .75;
 }
 
 #buttons {
 	display: flex;
     justify-content: center;
+    margin-top: 25px;
 
+}
+
+button {
+	margin: 5px;
+	background-color:#f2f2f2;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#757575;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:11px 17px;
+	text-decoration:none;
+	border: none;
 }	
 
 #footer {
@@ -70,14 +129,29 @@ li {
 	display: flex;
     justify-content: space-between;
     background: #f2f2f2;
-	
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    font-size: small;
+}
+
+.footer-text {
+	color: #666;
+}
+
+.left {
+	padding-right: 27px;
+}
+
+.right {
+	padding-left: 27px;
 }
 
 #footer-r {
-	
+	padding-right: 27px
 }
 
 #footer-l {
-	
+	padding-left: 27px;
 }
 
